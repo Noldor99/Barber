@@ -1,0 +1,24 @@
+#header {
+  width: 1544px;
+  margin: 0 auto;
+}
+#header .header__wrapper {
+  display: flex;
+  align-items: center;
+}
+#header .header__wrapper .logo__body {
+  display: flex;
+}
+#header .header__wrapper .logo__body a {
+  flex: 0 0 100px;
+  overflow: hidden;
+}
+#header .header__wrapper .logo__body a img {
+  max-width: 100%;
+}
+#header .header__wrapper .header__nav ul {
+  display: flex;
+}
+#header .header__wrapper .menu__right {
+  display: flex;
+}
